@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menupickershwaph3.MainActivity">
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="100"
+        android:title="@string/action_contact_message"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="10"
+        android:title="@string/action_order_message"
+        android:icon="@drawable/ic_shopp_card"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_status"
+        android:orderInCategory="20"
+        android:title="@string/action_status_message"
+        android:icon="@drawable/ic_status_info"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_favorites"
+        android:orderInCategory="30"
+        android:title="@string/action_favorites_message"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="ifRoom" />
+</menu>
